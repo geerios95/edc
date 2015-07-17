@@ -1,0 +1,98 @@
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+header {
+	float: left;
+	display: block;
+	content: "";
+	clear: both;
+}
+nav li {
+	display: inline-block;
+	top: 100%;
+	width: 100px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	line-height: 100px;
+	text-align: center;
+}
+nav > a {
+	float: left;
+}
+nav > ul {
+	background-color: hsla(0, 100%, 50%, .25);
+	float: right;
+}
+
+nav > ul > li > a {
+	color: purple;
+}
+div:nth-of-type(2)::before, div:nth-of-type(2)::after, 
+div:nth-of-type(3)::before, div:nth-of-type(3)::after {
+
+	content: "";
+	clear: both;
+	display: block;
+}
+ 
+figure {
+	float: left;
+}
+figure img {
+	border-radius: 50%;
+	transition: all 500ms ease-in-out;
+}
+figure:nth-child(odd) img {
+	transform: rotate(45deg);
+	border-radius: 0;
+}
+figure:nth-child(3n+3) img {
+	transform: rotate(-45deg);
+}
+figure:hover img {
+	transform: rotate(360deg);
+	padding: 10px;
+	border: 2px solid gray;
+}
+
+div:nth-of-type(3) img {
+	float: right;
+	clear: right;
+	width: 25%;
+	padding: 10px;
+	border: 1px solid gray;
+	margin: 10px;
+}
+div:nth-of-type(3) img:nth-of-type(2) {
+	float: left;
+	clear: left;
+}
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+label {
+	display: block;
+}
+input[type="submit"] {
+	border: 2px solid blue;
+	background-color: lightblue;
+	border-radius: 10%;
+	color: white;
+	padding: 10px;
+}
+input[type="email"] {
+	padding: 10px;
+	border-radius: 10%;
+}
+input[name="first"] {
+	border-color: red;
+}
+input[type="name"] {
+
+}
+input[type="city"] {
+
+}
