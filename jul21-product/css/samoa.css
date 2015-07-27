@@ -1,0 +1,38 @@
+main {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+#background {
+	width: 750px;
+	height: 550px;
+	background-color: darkblue;
+	margin: 0;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 275px solid transparent;
+	border-right: 275px solid transparent;
+	border-top: 700px solid red;
+	position: absolute;
+	top: -75px;
+	left: 125px;
+	transform: rotate(90deg);
+}
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 250px solid transparent;
+	border-right: 250px solid transparent;
+	border-top: 650px solid white;
+	transform: rotate(90deg);
+	position: absolute;
+	bottom: -50px;
+	left: 175px;
+}
+img {
+	position: absolute;
+	top: 115px;
+	left: 440px;
+}

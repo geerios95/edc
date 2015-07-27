@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Pepsi</title>
+		<link rel="stylesheet" href="css/pepsi.css">
+	</head>
+	<body>
+	<svg width="800" height="900">
+		<defs>
+			<clipPath id="dd">
+				<rect x="0" y="0" width="400" height="100" />
+			</clipPath>
+			<clipPath id="dd2">
+				<rect x="0" y="200" width="400" height="200" />
+			</clipPath>
+		</defs>
+		
+		<rect x="10" y="10" width="200" height="300" 
+        fill="blue" />
+        <rect x="300" y="10" width="200" height="300" 
+        fill="red" />
+
+        <circle cx="250" cy="160" r="170" fill="white" />
+        <circle cx="250" cy="160" r="150" fill="red" clip-path="url(#dd)"/>
+        <circle cx="250" cy="160" r="145" fill="blue" clip-path="url(#dd2)"/>
+
+        <path d="M115 99 q 100 30 150 0" fill="red" />
+     <path d="M240 100 q 100 -30 150 10" fill="white" />
+
+
+		</svg>
+
+	</body>
+</html>

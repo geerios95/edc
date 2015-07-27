@@ -1,0 +1,64 @@
+/* put your scss here */
+body {
+  background-color: rgba(117, 53, 151, 0.5);
+  color: rgba(190, 142, 215, 0.5);
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: 100;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(29, 13, 38, 0.5);
+}
+header h1 {
+  float: left;
+}
+header nav {
+  float: right;
+}
+header li {
+  display: inline-block;
+}
+header::before, header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main::before, main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+article {
+  background-color: white;
+  width: 75%;
+  float: left;
+}
+article h1 {
+  color: rgba(29, 13, 38, 0.5);
+  margin: 0;
+}
+
+aside {
+  background-color: rgba(29, 13, 38, 0.5);
+  width: 25%;
+  float: right;
+}
+
+footer {
+  background-color: rgba(65, 113, 40, 0.5);
+}
+footer p {
+  margin: 0;
+  color: rgba(29, 13, 38, 0.5);
+}
+
+h1 {
+  color: rgba(29, 13, 38, 0.5);
+  font-size: 33px;
+  font-weight: 400;
+  margin: 0;
+}

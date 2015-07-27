@@ -1,0 +1,13 @@
+label {
+	text-align: center;
+	padding: 20px;
+	margin: 5px;
+	width: 100px;
+	color: lightgray;
+}
+form {
+	background-color: gray;
+}
+button {
+	color: white;
+}
