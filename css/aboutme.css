@@ -1,0 +1,410 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Abel|Josefin+Sans:400,600,700|Shadows+Into+Light|Dancing+Script:400,700);
+html {
+  font-family: 'Josefin Sans', Arial, sans-serif;
+  background-image: url(../img/clouds5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attatchment: fixed;
+}
+
+body {
+  color: mistyrose;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ul1 {
+  list-style: none;
+}
+
+#ul2 {
+  list-style: circle;
+}
+
+a {
+  text-decoration: none;
+  color: mistyrose;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav li {
+  margin-right: auto;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 100px;
+}
+
+form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a img {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 670px;
+}
+
+section {
+  padding-top: 25px;
+}
+
+main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+video {
+  width: 30%;
+}
+
+.pics {
+  display: inline-block;
+  background-color: mistyrose;
+  height: 250px;
+  width: 250px;
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-animation: skew 3s infinite;
+          animation: skew 3s infinite;
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  opacity: .7;
+}
+
+@-webkit-keyframes skew {
+  0% {
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+  }
+  100% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+  }
+}
+
+@keyframes skew {
+  0% {
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+  }
+  100% {
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+  }
+}
+.videotext {
+  display: block;
+  position: absolute;
+  top: 565px;
+  right: 360px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: purple;
+  font-size: 15px;
+}
+
+.element {
+  position: absolute;
+  bottom: -800px;
+  left: 420px;
+  width: 620px;
+  height: 10px;
+  -webkit-animation: pulse 4s infinite;
+          animation: pulse 4s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-color: #551a8b;
+  }
+  50% {
+    background-color: #ff69b4;
+  }
+  100% {
+    background-color: #008080;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #551a8b;
+  }
+  50% {
+    background-color: #ff69b4;
+  }
+  100% {
+    background-color: #008080;
+  }
+}
+.about img {
+  float: left;
+  padding-top: 20px;
+}
+.about h3 {
+  font-size: 150%;
+  padding-top: 20px;
+  text-align: center;
+}
+.about p {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+  nav ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav li {
+    margin-right: auto;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5px 50px;
+  }
+
+  /*header {
+  	a img{
+  		position: absolute;
+  		display: block;
+  		top: 50px;
+  		left: 430px;
+  	}
+  	a {
+  		padding-right: 100px;
+  	}
+  }*/
+  a {
+    padding-right: 100px;
+  }
+
+  section {
+    margin-top: 43px;
+  }
+
+  video {
+    width: 40%;
+    display: block;
+    position: absolute;
+    top: 420px;
+    right: 0;
+  }
+
+  .pics {
+    display: inline-block;
+    background-color: mistyrose;
+    height: 200px;
+    width: 200px;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-animation: skew 3s infinite;
+            animation: skew 3s infinite;
+    -webkit-transform: skew(20deg);
+            transform: skew(20deg);
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    opacity: .7;
+  }
+
+  .videotext {
+    display: block;
+    position: absolute;
+    top: 570px;
+    right: 305px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    color: black;
+    font-size: 15px;
+  }
+
+  .element {
+    position: absolute;
+    bottom: -550px;
+    left: 205px;
+    width: 610px;
+    height: 10px;
+    -webkit-animation: pulse 4s infinite;
+            animation: pulse 4s infinite;
+  }
+
+  .about img {
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+  }
+  .about h3 {
+    font-size: 150%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .about p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 319px) {
+  nav {
+    display: inline-block;
+  }
+
+  .bnnr {
+    position: absolute;
+    display: block;
+    bottom: -1800px;
+    left: 0px;
+    width: 320px;
+    height: 150px;
+    padding: 20px 0;
+  }
+
+  /*.kidd {
+  	padding-top: 290px; 
+  }*/
+  .menkids {
+    padding-top: 80px;
+  }
+
+  video {
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 950px;
+    left: 0px;
+  }
+
+  .element {
+    width: 90%;
+    display: block;
+    position: absolute;
+    top: 3220px;
+    left: 17px;
+  }
+
+  .about img {
+    width: 200px;
+    height: 200px;
+    float: none;
+  }
+  .about h3 {
+    font-size: 120%;
+    font-weight: 700;
+  }
+  .about p {
+    font-weight: 200;
+  }
+  .about div {
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+  }
+
+  footer {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .element {
+    position: absolute;
+    display: block;
+    top: 1300px;
+    left: 350px;
+    width: 50%;
+  }
+
+  video {
+    position: absolute;
+    top: 550px;
+    left: 815px;
+    width: 45%;
+  }
+
+  .videotext {
+    display: block;
+    position: absolute;
+    top: 685px;
+    right: 570px;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .menkids {
+    padding-bottom: 0px;
+  }
+
+  .bnnr {
+    position: absolute;
+    top: 1525px;
+    left: 500px;
+    width: 500px;
+    height: 200px;
+  }
+
+  .about img {
+    width: 300px;
+    height: 300px;
+  }
+}

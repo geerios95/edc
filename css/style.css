@@ -1,0 +1,105 @@
+/* put your scss here */
+html {
+  background-image: url(../img/0473de53846f8dbc578acd6d9a4c116a.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#banner {
+  background-image: url(http://www.thepottershouse.eu/wp-content/uploads/2013/04/welcome-banner2.jpg);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div a {
+  margin: 0 0 0 600px;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav li {
+  margin-right: auto;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 100px;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rebeccapurple;
+  margin-top: -22px;
+  text-shadow: 1px 1px black;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}
+
+blockquote {
+  color: white;
+}
+
+name {
+  color: white;
+  padding-top: 10px;
+}
+
+.media .lefttext {
+  color: blueviolet;
+  font-size: 18px;
+  display: block;
+  position: absolute;
+  top: 580px;
+  left: 4;
+}
+.media .righttext {
+  color: blueviolet;
+  font-size: 18px;
+  display: block;
+  position: absolute;
+  top: 600px;
+  right: 80px;
+}
+
+.left {
+  display: block;
+  position: absolute;
+  top: 335px;
+  left: 0;
+}
+
+.right {
+  display: block;
+  position: absolute;
+  top: 335px;
+  right: 0;
+}
