@@ -1,0 +1,171 @@
+/* put your scss here */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.btn {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.btn-white {
+  border-color: white;
+}
+
+.util {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #53abee;
+  color: white;
+  padding: 20px 0;
+}
+.util p {
+  font-weight: 500;
+}
+.util a {
+  font-weight: 200;
+}
+.util * {
+  margin: 0 10px;
+}
+
+nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 25px;
+}
+nav li:first-of-type {
+  margin-right: auto;
+}
+nav li:first-of-type i {
+  color: #53abee;
+  font-size: 175%;
+}
+nav form {
+  position: relative;
+}
+nav form input {
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid #d3e0e9;
+  background-color: #f5f8fa;
+}
+nav form i {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav form i {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav li:last-of-type {
+  font-size: 80%;
+}
+
+.hero {
+  height: 280px;
+  background-image: url(../img/1500x500.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0;
+}
+.info ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+.info li {
+  margin: 0 20px;
+}
+.info small {
+  text-transform: uppercase;
+}
+.info p {
+  font-weight: 700;
+  margin: 0;
+}
+
+main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+main aside {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+main article {
+  -webkit-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.bio {
+  position: relative;
+}
+.bio img {
+  display: inline-block;
+  width: 80%;
+  margin: 0 10%;
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  border: 5px solid white;
+  border-radius: 5px;
+}

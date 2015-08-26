@@ -1,0 +1,97 @@
+/* put your scss here */
+$btn-size: 10px;
+
+.btn {
+	display: inline-block;
+	padding: $btn-size $btn-size*2;
+	border: 1px solid gray;
+	background-color: lightgray;
+	font-size: $btn-size * 2;
+	border-width: $btn-size - 6;
+
+	&.btn-lg {
+		$btn-size: $btn-size * 2;
+		padding: $btn-size $btn-size * 2;
+		font-size: $btn-size * 2;
+		border-width: $btn-size - 10;
+	}
+	&.btn-sm {
+		$btn-size: $btn-size / 2;
+		padding: $btn-size $btn-size * 2;
+		font-size: $btn-size * 2;
+		border-width: $btn-size - 4;
+	}
+	&.btn-pill {
+		border-radius: $btn-size * 3;
+		border-width: $btn-size - 5;
+	}
+}
+
+$section-bg: #444;
+$font-clr: #101010;
+$bg-brightness: lightness($section-bg);
+section {
+	background-color: $section-bg;
+	
+	@if $bg-brightness > 15% and $bg-brightness 30% {
+		color: lighten($font-clr, 50);
+	}
+	@else if $bg-brightness < 15% {
+		color: lighten($font-clr, 75);
+	}
+	@else {
+		color: $font-clr;
+	}
+
+
+
+	/*background-color: $section-bg;
+	@if $hue >= 300deg {
+		color:blue;
+	}
+	@else if $hue >= 200deg and $hue <= 300deg {
+		color: yellow;
+	}
+	@else if $hue >= 100deg and $hue <= 200deg {
+		color: black;
+	}
+	@else if $hue >= 250deg and $hue <= 340deg {
+		color: darkred;
+	}
+	transform: rotate($hue);
+	//font-size: $hue;
+	//background-color: $section-bg;
+	//color: white;
+	@if $section-bg == yellow {
+		color: black;
+		font-size: 20px;
+	}@else if $section-bg == red {
+		color: green;
+		font-size: 20px;
+	}@else{
+		color: black;
+		font-size: 30px;
+	}*/
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+aside li {
+	line-height: 3;
+	list-style: none;
+	padding-left: 20px;
+	border-width: 0 10px 0 0;
+	border-style: solid;
+	@for $i from 1 through 20 {
+		$deg: $i*30;
+		$bg-clr: hsla($deg, 50%, 50%, 1);
+		&:nth-of-type(#{$i}){
+			background-color: lighten($bg-clr,15);
+			border-color: $bg-clr;
+
+		}
+	}
+
+
+}

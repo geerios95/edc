@@ -1,0 +1,41 @@
+@import "variables";
+
+header {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	height: 400px;
+	content: "";
+	display: block;
+	clear: both;
+	h1 {
+		color: white;
+		text-align: center;
+	}
+	h3 {
+		color: hsla(0, 0%, 100%, .5);
+		text-align: center;
+	}
+}
+nav {
+	display: inline;
+	ul li {
+	list-style: none;
+	text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: hsla(0, 0%, 100%, .8);
+		border: 1px solid white;
+		border-radius: 10px;
+	}
+}
+div, h2, h3 {
+	color: gray;
+	p {
+		color: black;
+	}
+}
+ol li {
+	list-style: none;
+	float: right;
+}

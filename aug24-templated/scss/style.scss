@@ -1,0 +1,77 @@
+/* put your scss here */
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #552713;
+   }
+ .col-md-12 {
+ 	background-color: #552713;
+}
+div {
+	background-color: white;
+}
+.header {
+	background-color: #552713;
+	text-align: center;
+	color: #FD5113;
+	a {
+		color: white;
+	}
+}
+nav #ul {
+	list-style: none;
+}
+#ul li {
+	display: inline-block;
+	text-align: center;
+	padding: 20px 60px;
+	background-color: #2B1B17;
+}
+#ul a {
+	color: #FD5113;
+	text-decoration: none;
+	&:hover {
+		color: white;
+		text-decoration: none;
+	}
+}
+.hero {
+	h1 {
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+}
+.list {
+	list-style: none;
+}
+.date {
+	background-color: #261106;
+	width: 40%;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: white;
+}
+.btn-default{
+	color: #fff;
+    background-color: #261106;
+    border-color: #ccc;
+}
+a {
+    color: #525252;
+    text-decoration: none;
+}
+
+#row1 {
+	background-color: #261106;
+}
+
+#mess {
+	background-color: #fff;
+}
+footer {
+	//background-color: #261106;
+	text-align: center;
+	//padding-top: 40px;
+}

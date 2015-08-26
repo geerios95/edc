@@ -1,0 +1,109 @@
+body {
+  background-color: #552713;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+}
+header h2 {
+  color: #FD5113;
+}
+
+nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2B1B17;
+  width: 75%;
+  margin-left: 140px;
+}
+nav ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: start-end;
+      -ms-flex-pack: start-end;
+          justify-content: start-end;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+nav ul li, nav ul li a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul li a {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #FD5113;
+  padding: 10px;
+}
+
+#firstsec {
+  background-color: #fff;
+}
+
+section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+section ul {
+  list-style: none;
+}
+section h2 {
+  float: right;
+}
+
+#lastsec {
+  background-color: #552713;
+}
+
+.list li {
+  list-style: none;
+  line-height: 1.5;
+  padding-left: 10px;
+}
+.list li a {
+  color: #c18062;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+.list li a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.date {
+  width: 80px;
+  height: 80px;
+  background-color: #FD5113;
+  font-size: 20px;
+  color: white;
+  float: left;
+  text-align: center;
+}
+
+footer p {
+  background-color: #2B140A;
+  text-align: center;
+  padding: 40px;
+  color: #c18062;
+}

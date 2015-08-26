@@ -1,0 +1,64 @@
+/* put your scss here */
+@import "variables";
+@import "reset";
+@import "layout";
+
+
+body {
+	background-color: $main-color;
+}
+h1 {
+	color: $main-light;
+}
+h2 {
+	color: $main-dark;
+}
+
+main {
+	border-top: 1px solid $main-dark;
+}
+aside {
+	padding: 0 $halfpad;
+}
+article {
+	padding: 0 $pad;
+}
+header {
+	background-image: url(http://www.wallpaperfo.com/thumbnails/detail/20120427/mountains%20clouds%20outer%20space%20stars%20birds%20planets%20purple%201680x1050%20wallpaper_www.wallpaperfo.com_34.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: $pad $halfpad $halfpad;
+	h1, h2 {
+		margin: 0; 
+	}
+	h2 {
+		text-transform: uppercase;
+		font-size: 80%;
+	}
+}
+footer {
+	background-color: $main-dark;
+	padding: $pad $halfpad;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	h3 {
+		margin: 0;
+	}
+}
+.post {
+	@extend .bubble;
+	border-bottom: 1px solid $main-light;
+	border-top: 1px solid $main-dark;
+	padding-bottom: $pad;
+	&:first-child {
+		border-top: none;
+	}
+	&:last-child {
+		border-bottom: none;
+	}
+}
+.rightcol {
+	@extend .bubble;
+}

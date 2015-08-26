@@ -1,0 +1,73 @@
+body {
+	margin: 0; 
+}
+.hero {
+	height: 200px;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-position: top center;
+}
+header {
+		content: "";
+		display: block;
+		clear: both;
+} 
+nav {
+	float: right;
+}
+ul li {
+	list-style: none;
+	display: inline;
+}
+a {
+	display: inline;
+	padding: 10px;
+	color: gray;
+	text-decoration: none;
+}
+.row1 {
+	float: left;
+	width: 200px;
+	text-align: center;
+	padding: 50px;
+	margin: 70px;
+	color: gray;
+}
+.row2 {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 70px; 
+	padding: 50px;
+	color: gray;
+}
+.row3 {
+	float: left;
+	width: 200px;
+	text-align: center;
+	padding: 50px;
+	margin: 70px;
+	color: gray;
+}
+img {
+	border: 1px solid gray; 
+}
+
+hgroup {
+	color: white;
+	text-align: center;
+}
+main {
+	background-color: white;
+}
+.sec2 {
+	text-align: center;
+	background-color: darkgray;
+	float: right;
+}
+section img:nth-of-type(2) {
+	float: right;
+}
+section img:nth-of-type(3) {
+	float: right;
+}

@@ -1,0 +1,95 @@
+.clearfix::before,
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+html, body {
+	width: 100%;
+}
+header {
+	background-color: #180e0e;
+	overflow: hidden;
+	padding: 0;
+}
+nav {
+	float: right;
+}
+ul li {
+	list-style: none;
+	display: inline;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+.first li:first-child {
+	background-color: lightblue;
+	padding: 15px;
+	border-radius: 5px;
+}
+main {
+	width: 100%;
+	padding-left: 10px;
+}
+.img1 {
+	float: left;
+	width: 25%;
+	padding-left: 30px;
+}
+.img2 {
+	float: right;
+	width: 25%;
+}
+.img3 {
+	float: left;
+	width: 25%;
+	
+}
+section {
+	background: #372019;
+	width: 100%;
+	color: #8c5240;
+}
+section div:nth-of-type(3) {
+	float: left;
+}
+.col1 {
+	width: 50%;
+}
+ol {
+	list-style: none;
+	float: left;
+	width: 25%;
+}
+.threeol {
+	float: right;
+}
+.col2 {
+	width: 25%;
+}
+.col3 {
+	width: 75%;
+	float: right;
+}
+.lion {
+	float: right;
+	width: 100%;
+}
+.last {
+	background-color: #261611;
+	color: #774535;
+}
+.p1 {
+	width: 25%;
+}
+.p2 {
+	width: 25%;
+}
+.p3 {
+	width: 25%;
+}
+.done {
+	float: left;
+}

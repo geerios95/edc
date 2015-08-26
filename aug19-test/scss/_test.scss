@@ -1,0 +1,41 @@
+@for $i from 1 through 4 {
+	nav ul li:nth-of-type(#{$i}):hover{
+	background-color: hsl(random(360), 100%, 50%);
+	}
+}
+
+$backs: hero agency featured;
+@each $back in $backs {
+$i: index($backs, $back);
+div.intro:nth-of-type(#{$i}) {
+	background-image: url(../img/intro-#{$back}.jpg);
+	}
+}
+
+#agency.content div {
+	width: 33.333%;
+	height: 30vw;
+}
+$pics: angie brianne claire franklin gary genie jacob jonathan phillip rebecca shaun tessa;
+@each $pic in $pics {
+	$i: index($pics, $pic);
+	#agency.content div:nth-of-type(#{$i}) {
+		background-image: url(../img/agency-#{$pic}.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+}
+@for $i from 1 through 6 {
+	section#featured div:nth-of-type(#{$i}):hover{
+	background-color: hsl(random(360), 100%, 50%);
+	}
+}
+
+section {
+	&#featured div {
+		box-sizing: border-box;
+		width: (100% / 3);
+		padding: 50px;
+		background-color: $white-lighter; 
+	}
+}

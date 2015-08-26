@@ -1,0 +1,104 @@
+/* put your scss here */
+main::before, aside::before, main::after, aside::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bubble, .post, .rightcol {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.2;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 1.4;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+aside {
+  width: 200px;
+  float: left;
+}
+
+article {
+  width: calc( 100% - 400px );
+  float: left;
+}
+
+body {
+  background-color: mediumpurple;
+}
+
+h1 {
+  color: #d1c1f0;
+}
+
+h2 {
+  color: #47248e;
+}
+
+main {
+  border-top: 1px solid #47248e;
+}
+
+aside {
+  padding: 0 20px;
+}
+
+article {
+  padding: 0 40px;
+}
+
+header {
+  background-image: url(http://www.wallpaperfo.com/thumbnails/detail/20120427/mountains%20clouds%20outer%20space%20stars%20birds%20planets%20purple%201680x1050%20wallpaper_www.wallpaperfo.com_34.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 40px 20px 20px;
+}
+header h1, header h2 {
+  margin: 0;
+}
+header h2 {
+  text-transform: uppercase;
+  font-size: 80%;
+}
+
+footer {
+  background-color: #47248e;
+  padding: 40px 20px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer h3 {
+  margin: 0;
+}
+
+.post {
+  border-bottom: 1px solid #d1c1f0;
+  border-top: 1px solid #47248e;
+  padding-bottom: 40px;
+}
+.post:first-child {
+  border-top: none;
+}
+.post:last-child {
+  border-bottom: none;
+}
