@@ -383,7 +383,7 @@ footer {
     display: block;
     position: absolute;
     top: 685px;
-    right: 570px;
+    right: 400px;
     -webkit-transform: rotate(-90deg);
             transform: rotate(-90deg);
     color: black;
@@ -397,7 +397,7 @@ footer {
 
   .bnnr {
     position: absolute;
-    top: 1525px;
+    top: 1555px;
     left: 500px;
     width: 500px;
     height: 200px;

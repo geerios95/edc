@@ -13,7 +13,7 @@ div.banner {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../img./http://www.shinewithjl.com/wp-content/uploads/2013/12/contact-me-banner2.jpg);
+  background-image: url(../img/contact-me-banner2.jpg);
 }
 
 h1 {
@@ -33,7 +33,7 @@ a img {
 .fbicon {
   display: block;
   position: absolute;
-  bottom: -28px;
+  top: 470px;
   left: 450px;
 }
 
@@ -83,10 +83,6 @@ nav li {
   position: absolute;
   top: 50px;
   left: -75px;
-}
-#fblink a {
-  color: rgba(0, 0, 0, 0.9);
-  border: 1px solid transparent;
 }
 
 iframe {
