@@ -1,0 +1,5 @@
+/* put your scss here */
+table, td {
+  border: 1px solid black;
+  text-align: center;
+}

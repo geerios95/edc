@@ -1,0 +1,87 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Abel);
+body {
+  font-family: 'Abel', Arial, sans-serif;
+  font-size: 2em;
+}
+
+header {
+  width: 1490px;
+  height: 600px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+header hgroup {
+  padding-top: 100px;
+}
+header nav {
+  padding-top: 50px;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  display: inline;
+  padding: 20px;
+}
+header a {
+  color: black;
+}
+header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+header a:active {
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+
+i {
+  padding: 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.btn-default {
+  background-color: #323338;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+}
+.btn-default:hover {
+  background-color: black;
+  color: #fff;
+}
+
+a {
+  color: black;
+}
+
+h1, h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bg-white {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.bg-white p {
+  padding: 10px;
+}
+
+.bg-gray {
+  padding-top: 40px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.bg-gray p {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+}

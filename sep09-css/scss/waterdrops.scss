@@ -1,0 +1,43 @@
+body {
+	text-transform: lowercase;
+}
+header{
+	background-image: url(../img/img01.jpg);
+	//background-attachment: fixed;
+	padding: 100px;
+	h1 a{
+	font-size: 2em;
+	margin-top: -10px;
+	}
+	ul li{
+		display: inline;
+		float: right;
+	}
+	li{
+		list-style: none;
+		padding: 40px;
+		margin-top: -100px;
+	}
+	a{
+		color: #fff;
+		text-decoration: none;
+		clear: both;
+	}
+}
+main {
+	color: #7D7764;
+	a{
+	color: #341A39;
+	text-decoration: none;
+	}
+}
+.banner img{
+	display: block;
+	position: absolute;
+	top: 250px;
+	left: 210px;
+	border: 15px solid #fff;
+}
+main section {
+	padding-top: 250px;
+}

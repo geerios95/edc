@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body{
+	font-family: 'Abel', Arial, sans-serif;
+	font-size: 2em;
+}
+header {
+	width: 1490px;
+	height: 600px;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	hgroup{padding-top: 100px;}
+	nav{padding-top: 50px;}
+	ul{list-style: none;}
+	li{display: inline; padding: 20px;}
+	a{
+		color: black;
+		&:hover{
+			color: #fff;
+			text-decoration: none;
+		}
+		&:active{
+			background-color: black;
+			color: #fff;
+			border-radius: 5px;
+		}
+
+	}
+}
+.btn-default{
+	background-color: #323338;
+	color: #fff;
+	padding: 10px 20px 10px 20px;
+	&:hover{background-color: black; color: #fff;}
+}
+a{color: hsl(0, 0%, 50%);}
+ul li {
+	list-style: none;
+}
+.bg-white{
+	p{padding: 0 20px;}
+}
+.bg-gray{
+	background-color: hsla(0, 0%, 50%, .5);
+}
+footer {
+	text-align: center;
+}

@@ -1,0 +1,59 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+	background-image: url(../img/bg01.png);
+	color: #555;
+}
+header {
+	text-align: center;
+	nav{
+		display: inline;
+	}
+	ul{
+		display: inline;
+	}
+	ul li {
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+		color: #555;
+	}
+	.fa{
+		background-color: #df6267;
+		padding: 20px 20px;
+		border-radius: 50%;
+		font-size: 200%;
+		color: #fff; 
+	}
+	h1{
+		color: #555;
+	}
+}
+main {
+	h2{
+		text-align: left;
+	}
+	p{
+		text-align: right;
+		margin-top: -40px; 
+	}
+	.gallery img{
+		display: block;
+		width: 30%;
+		border-radius: 20px;
+		padding: 20px 15px;
+		margin-left: 40px;
+		float: left;
+		&::before, &::after{
+			display: block;
+			content: "";
+			clear: both;
+		}
+		a{
+		text-align: center;
+	}
+	}
+	
+}
