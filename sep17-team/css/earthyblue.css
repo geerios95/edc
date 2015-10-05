@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+body {
+  background: #324467;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+header {
+  padding: 30px 60px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h1 {
+  text-align: center;
+}
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul {
+  margin-left: 400px;
+}
+
+ul {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main div {
+  text-align: center;
+}
+
+.wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.icons {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.icons p {
+  width: 50%;
+  margin-left: 120px;
+}
+
+#pictures {
+  padding: 20px 40px;
+}
+#pictures p {
+  width: 70%;
+  margin-left: 60px;
+}
+
+hr {
+  width: 90%;
+}
+
+footer {
+  padding: 50px 0;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fa {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #3e5998;
+  line-height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #3e5998;
+  color: inherit;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600);
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 700;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul {
+  float: right;
+  margin-right: 450px;
+}
+header ul li {
+  display: inline-block;
+}
+header li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+header::before, header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header img {
+  width: 100%;
+}

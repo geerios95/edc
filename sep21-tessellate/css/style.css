@@ -1,0 +1,53 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,100,300);
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  color: #666666;
+  font-weight: 100;
+  text-align: center;
+}
+
+p {
+  font-weight: 300;
+}
+
+a.btn {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+header {
+  background-image: url(../img/overlay.png), url(../img/header.jpg);
+  background-size: initial, cover;
+  background-position: top center;
+  padding: 150px 0;
+  color: white;
+}
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: inherit;
+}
+header h2 {
+  font-size: 1.4em;
+  margin: 1.2em 0;
+  color: inherit;
+}
+header a {
+  width: 250px;
+  margin: 0 auto;
+}

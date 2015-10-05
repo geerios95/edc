@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600);
+$white: hsla(0, 0%, 100%, 1);
+
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+header{
+	position: relative;
+	h1{
+		text-align: center;
+		font-weight: 700;
+	}
+	 a{
+		text-decoration: none;
+		color: black;
+	}
+	nav ul{
+		float: right;
+		margin-right: 430px;
+	}
+	ul li{
+		display: inline-block;
+	}
+	li a{
+		text-decoration: none;
+		color: black;
+		padding: 0 20px;
+	}
+	&::before, &::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
+	img{
+		width: 100%;
+	}
+}
+div.dopetrope{
+	width: 600px;
+	height: 150px;
+	background-color: hsla(345, 6%, 13%, 0.98);
+	position: absolute;
+	top: 250px;
+	left: 370px;
+	h2 {
+		color: $white;
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 0;
+	}
+	p {
+		color: hsla(347, 72%, 49%, 1);
+		text-align: center;
+		font-size: 25px;
+		font-weight: 300;
+	}
+}
+#hero {
+	&::before, &::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	i{
+		width: 100px;
+		height: 100px;
+		font-size: 600%;
+		text-align: center;
+		margin-left: 160px;
+		border-radius: 100%;
+	}
+	.fa-cog{
+		background-color: hsla(347, 72%, 49%, 1);
+		color: $white;
+	}
+	.fa-bolt{
+		background-color: black;
+		color: $white;
+	}
+	.fa-star-o{
+		background-color: gray;
+		color: $white;
+	}
+	div{
+		float: left;
+		width: 33%;
+		border-right: 1px solid gray;
+		padding: 40px 0;
+	}
+	div:nth-of-type(3){
+		border: none;
+	}
+	div h2{
+		text-align: center;
+	}
+	div p{
+		padding: 0 20px;
+		text-align: center;
+	}
+	a{
+		text-decoration: none;
+		color: $white;
+		padding: 10px 60px;
+		background-color: black;
+		margin-left: 15px;
+		border-radius: 5px;
+		font-size: 30px;
+		margin-top: 20px;
+
+	}
+	a:nth-of-type(1){
+		background-color: hsla(347, 72%, 49%, 1);
+		margin-left: 400px;
+	}
+	span{
+		display: inline-block;
+		margin-top: 50px;
+	}
+}
+#my-portfolio {
+	h2{
+		text-align: center;
+		padding-top: 20px;
+		font-size: 200%;
+	}
+	//background-color: hsla(0, 0%, 5%, .1);
+	&::before, &::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	div {
+		float: left;
+		width: 28%;
+		height: auto;
+		padding: 40px 30px;
+		// background-color: $white;
+	}
+	div:first-of-type{
+		margin-left: 20px;
+	}
+	div p {
+		padding-right: 50px;
+		padding-bottom: 30px;
+	}
+	.btn{
+		text-decoration: none;
+		color: $white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		background-color: hsla(0, 0%, 0%, .9);
+	}
+	div:nth-of-type(4), div:nth-of-type(5), div:nth-of-type(6){
+		margin-left: 10px;
+	}
+}
