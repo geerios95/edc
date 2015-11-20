@@ -1,0 +1,55 @@
+@import 'variables';
+@import 'reset';
+//@import 'fontawesome';
+
+$white: hsla(0, 0%, 96%, 1);
+$black: hsla(0, 0%, 9%, 1);
+
+body {
+	background-color: $white;
+	color: $black;
+	padding: 10vw 5vw;
+}
+header {
+	background-color: $black;
+	color: $white;
+	nav {
+		display: flex;
+		img {
+			transition: all 100ms ease-in-out;
+		}
+		a {
+			display: inherit;
+			margin: 0 auto 0 0;
+			padding: 10px;
+			align-items: center;
+			
+		}
+		ul {
+			display: inherit;
+			li {
+				display: inherit;
+			}
+			a {
+				display: inherit;
+				padding: 10px;
+				align-items: center;
+				
+			}
+		}
+	}
+	&.fixie {
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		img {
+			width: 75px;
+			height: 75px;
+		}
+	}
+}
+main {
+	background-color: darken($white, 5);
+	padding: inherit;
+}

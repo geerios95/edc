@@ -150,3 +150,39 @@ div.dopetrope p {
 #my-portfolio div:nth-of-type(4), #my-portfolio div:nth-of-type(5), #my-portfolio div:nth-of-type(6) {
   margin-left: 10px;
 }
+
+#blog h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 200%;
+}
+#blog::before, #blog::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#blog div {
+  width: 45%;
+  float: left;
+  margin-left: 50px;
+}
+#blog p:nth-child(even) {
+  padding-bottom: 40px;
+  margin: 0;
+}
+#blog a:nth-child(odd) {
+  text-decoration: none;
+  color: white;
+  background-color: #d7234a;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+#blog a:nth-child(even) {
+  text-decoration: none;
+  color: white;
+  background-color: #262223;
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}

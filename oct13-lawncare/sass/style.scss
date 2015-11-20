@@ -1,0 +1,402 @@
+@import "variables";
+@import "reset";
+@import "fontawesome";
+
+
+/* sass goes here */
+
+%clearfix {
+	&::before, &::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin content($sides){
+	padding: 75px $sides;
+}
+
+.floats {
+	.util-nav {
+		@extend %clearfix;
+		background-image: url('../img/patt1.png');
+		h1 {
+			float: left;
+			color: $logocolor;
+			margin-bottom: 0;
+		}
+		ul {
+			float: right;
+		}
+		li {
+			display: inline-block;
+			float: left;
+			i {
+				float: left;
+				margin: 0 10px;
+				font-size: 2em;
+				color: $compcolor;
+			}
+			div {
+				float: left;
+			}
+		}
+	}
+	nav {
+		background-color: $black;
+		color: $white;
+		li {
+			display: inline-block;
+			font-size: 1.1em;
+			font-weight: 100;
+			
+			text-transform: uppercase;
+			&:hover {
+				background-color: $keycolor;
+			}
+			a {
+				display: block;
+				padding: 25px 30px;
+			}
+		}
+	}
+	.cta {
+		text-align: center;
+		padding: 100px 0;
+		color: $white;
+		background: {
+			image: url('../img/page-1_slide1.jpg');
+			size: cover;
+			position: center;
+		}
+		h2 {
+			font-size: 2em;
+			text-transform: uppercase;
+		}
+	}
+	&.promos {
+		@include content(5vw);
+		@extend %clearfix;
+		background-color: $lightgray;
+		div {
+			width: 25%;
+			float: left;
+		}
+	}
+	&.features {
+		@include content(5vw);
+		text-align: center;
+		@extend %clearfix;
+		div {
+			width: 33%;
+			float: left;
+		}
+		i {
+			font-size: 3em;
+			width: 3em;
+			height: 3em;
+			line-height: 3em;
+			border: 1px solid $compcolor;
+			border-radius: 50%;
+			color: $compcolor;
+			margin-bottom: 40px;
+		}
+	}
+	&.about {
+		@include content(5vw);
+		@extend %clearfix;
+		div:first-child{
+			width: 33%;
+			float: left;
+		}
+		div:last-child{
+			width: 66%;
+			float: left;
+		}
+	}
+	&.fixed1 {
+		text-align: center;
+		color: $white;
+		padding: 100px 0;
+		h1 {
+			font-size: 4em;
+			font-weight: 100;
+		}
+		background: {
+			image: url(../img/parallax1-1.jpg);
+			size: cover;
+			position: center;
+			attachment: fixed;
+		}
+	}
+	&.do {
+		@include content(5vw);
+		@extend %clearfix;
+		h1 {
+			text-align: center;
+			color: $keycolor;
+			font-size: 4em;
+		}
+		div {
+			width: 33%;
+			float: left;
+			padding: 5%;
+			box-sizing: border-box;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&.product {
+		@include content(5vw);
+		@extend %clearfix;
+		background-color: lightgray;
+		h3 {
+			text-transform: uppercase;
+			font-size: 2em
+		}
+		div:first-child{
+			width: 33%;
+			float: left;
+		}
+		div:last-child{
+			width: 66%;
+			float: left;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&.fixed2 {
+		text-align: center;
+		color: $white;
+		padding: 100px 0;
+		h1 {
+			font-size: 4em;
+			font-weight: 100;
+		}
+		background: {
+			image: url(../img/parallax1.jpg);
+			size: cover;
+			position: center;
+			attachment: fixed;
+		}
+	}
+	&.news {
+		@include content(5vw);
+		@extend %clearfix;
+		h1 {
+			text-align: center;
+			color: $keycolor;
+			font-size: 4em;
+		}
+		div {
+			width: 33%;
+			float: left;
+			padding: 5%;
+			box-sizing: border-box;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.flex {
+	.util-nav {
+		display: flex;
+		h1 {
+			margin-right: auto;
+			color: green;
+			margin-bottom: 0;
+		}
+		ul {
+			display: flex;
+		}
+		li {
+			display: inline-flex;
+			i {
+				margin: 0 10px;
+				font-size: 2em;
+				color: $compcolor;
+			}
+		}
+	}
+	nav {
+		background-color: $black;
+		color: $white;
+		ul {
+			width: 100%;
+			display: inline-flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			li {
+				text-align: center;
+				font-size: 1.1em;
+				font-weight: 100;
+				
+				text-transform: uppercase;
+				&:hover {
+					background-color: $keycolor;
+				}
+				a {
+					display: block;
+					padding: 25px 30px;
+				}
+			}
+		}
+	}
+	.cta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 25vw;
+		color: $white;
+		background: {
+			image: url('../img/page-1_slide1.jpg');
+			size: cover;
+			position: center;
+		}
+		h2 {
+			font-size: 2em;
+			text-transform: uppercase;
+		}
+	}
+	&.promos {
+		@include content(0);
+		background-color: $lightgray;
+		display: flex;
+		justify-content: center;
+		div {
+			width: 20%;
+		}
+	}
+	&.features {
+		@include content(0);
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		div {
+			width: 30%;
+		}
+		i {
+			font-size: 3em;
+			width: 3em;
+			height: 3em;
+			line-height: 3em;
+			border: 1px solid $compcolor;
+			border-radius: 50%;
+			color: $compcolor;
+			margin-bottom: 40px;
+			//display: inline-flex;
+			//justify-content: center;
+			//align-items: center;
+		}
+	}
+	&.about {
+		@include content(5vw);
+		display: flex;
+		div:first-child{
+			flex: 1;
+		}
+		div:last-child{
+			flex: 2
+		}
+	}
+	&.fixed1 {
+		text-align: center;
+		color: $white;
+		padding: 100px 0;
+		h1 {
+			font-size: 4em;
+			font-weight: 100;
+		}
+		background: {
+			image: url(../img/parallax1-1.jpg);
+			size: cover;
+			position: center;
+			attachment: fixed;
+		}
+	}
+	&.do {
+		@include content(5vw);
+		h1 {
+			text-align: center;
+			color: $keycolor;
+			font-size: 4em;
+		}
+		span {
+			display: flex;
+		}
+		div {
+			padding: 5%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&.product {
+		display: flex;
+		@include content(5vw);
+		background-color: lightgray;
+		h3 {
+			text-transform: uppercase;
+			font-size: 2em
+		}
+		div:first-child{
+			flex: 1;
+		}
+		div:last-child{
+			flex: 2;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	&.fixed2 {
+		text-align: center;
+		color: $white;
+		padding: 100px 0;
+		h1 {
+			font-size: 4em;
+			font-weight: 100;
+		}
+		background: {
+			image: url(../img/parallax1.jpg);
+			size: cover;
+			position: center;
+			attachment: fixed;
+		}
+	}
+	&.news {
+		@include content(5vw);
+		h1 {
+			text-align: center;
+			color: $keycolor;
+			font-size: 4em;
+		}
+		span {
+			display: flex;
+		}
+		div {
+			padding: 5%;
+		}
+		img {
+			width: 100%;
+			height: auto;
+		}
+	} 
+}
+
+
+
+
+
+

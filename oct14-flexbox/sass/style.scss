@@ -1,0 +1,44 @@
+@import 'variables';
+@import 'reset';
+@import 'fontawesome';
+
+
+html {
+	height: 100%;
+}
+body {
+	background-color: green;
+	height: 100%;
+}
+div {
+	color: white;
+	width: 50px;
+	height: 50px;
+	background-color: mediumpurple;
+	&:first-child {
+		background-color: lightgreen;
+	}
+	&:last-child {
+		background-color: lightcoral;
+	}
+}
+main {
+	background-color: hsla(0, 40%, 90%, 1);
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	//justify-content: flex-end;
+	align-items: flex-start;
+	//align-content: stretch;
+	div:first-child {
+		//flex: 6;
+	}
+	div:nth-child(2) {
+		//flex: 4;
+		background-color: turquoise;
+	}
+	div:last-child {
+		//flex: 5;
+	}
+}

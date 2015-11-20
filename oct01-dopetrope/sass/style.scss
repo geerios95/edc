@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600);
 $white: hsla(0, 0%, 100%, 1);
+$pink:  hsla(347, 72%, 49%, 1);
+$black: hsla(345, 6%, 14%, 1);
 
 
 body{
@@ -51,7 +53,7 @@ div.dopetrope{
 		margin-bottom: 0;
 	}
 	p {
-		color: hsla(347, 72%, 49%, 1);
+		color: $pink;
 		text-align: center;
 		font-size: 25px;
 		font-weight: 300;
@@ -72,7 +74,7 @@ div.dopetrope{
 		border-radius: 100%;
 	}
 	.fa-cog{
-		background-color: hsla(347, 72%, 49%, 1);
+		background-color: $pink;
 		color: $white;
 	}
 	.fa-bolt{
@@ -111,7 +113,7 @@ div.dopetrope{
 
 	}
 	a:nth-of-type(1){
-		background-color: hsla(347, 72%, 49%, 1);
+		background-color: $pink;
 		margin-left: 400px;
 	}
 	span{
@@ -153,6 +155,43 @@ div.dopetrope{
 		background-color: hsla(0, 0%, 0%, .9);
 	}
 	div:nth-of-type(4), div:nth-of-type(5), div:nth-of-type(6){
+		margin-left: 10px;
+	}
+}
+#blog {
+	h2{
+		text-align: center;
+		padding-top: 20px;
+		font-size: 200%;
+	}
+	&::before, &::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	div {
+		width: 45%;
+		float: left;
+		margin-left: 50px;
+	}
+	p:nth-child(even) {
+		padding-bottom: 40px;
+		margin: 0;
+	 }
+	a:nth-child(odd) {
+		text-decoration: none;
+		color: $white;
+		background-color: $pink;
+		padding: 15px 30px;
+		border-radius: 5px;
+	}
+	a:nth-child(even) {
+		text-decoration: none;
+		color: $white;
+		background-color: $black;
+		padding: 15px 30px;
+		border-radius: 5px;
+		display: inline-block;
 		margin-left: 10px;
 	}
 }
