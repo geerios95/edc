@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	
+}
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 0;
+	float: left;
+}
+a {
+	color: hsla(211, 17%, 25%, 1);
+	text-decoration: none;
+}
+nav{
+	color: hsla(211, 17%, 25%, 1);
+	padding: 0 20px;
+}
+nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+ul {
+	float: right;
+
+}
+li{
+	display: inline-block;
+	margin: 0 5px;
+}
+li.dropdown{
+	//background-color: pink;
+	position: relative;
+}
+li.dropdown:hover ul {
+	display: block;
+}
+ul ul{
+	background-color: #ffffff;
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 20px;
+	border-top: 10px solid #303030;
+	//display: none;
+}
+ul ul li{
+	display: block;
+}

@@ -1,0 +1,90 @@
+#circle1 {
+	z-index: 3;
+	position: relative;
+	top: 80px;
+	left: 80px;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border: 1px solid lightgray;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 12px;
+}
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+}
+#cuppy {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#circle2 {
+	z-index: 2;
+	position: absolute;
+	top: 65px;
+	left: 65px;
+	width: 250px;
+	height: 250px;
+	background: gray;
+	border-radius: 50%;
+}
+#circle3 {
+	z-index: 1;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	width: 300px;
+	height: 300px;
+	background: #fbe573;
+	border-radius: 50%;
+	border: 1px solid #fbe576;
+}
+h1 span {
+	font-family: 'Cutive Mono', sans-serif; 
+  	height: 200px;
+  	font-size: 16px;
+  	position: absolute;
+  	width: 20px;
+  	left: 0;
+  	bottom: 0;
+  	transform-origin: bottom left;
+}
+.char1 { transform: rotate(3deg);}
+.char2 { transform: rotate(6deg);}
+.char3 { transform: rotate(9deg);}
+.char4 { transform: rotate(12deg);}
+.char5 { transform: rotate(15deg);}
+.char6 { transform: rotate(18deg);}
+.char7 { transform: rotate(21deg);}
+.char8 { transform: rotate(24deg);}
+.char9 { transform: rotate(27deg);}
+.char10 { transform: rotate(30deg);}
+.char11 { transform: rotate(33deg);}
+.char12 { transform: rotate(36deg);}
+.char13 { transform: rotate(39deg);}
+.char14 { transform: rotate(42deg);}
+.char15 { transform: rotate(45deg);}
+.char16 { transform: rotate(48deg);}
+.char17 { transform: rotate(51deg);}
+.char18 { transform: rotate(54deg);}
+.char19 { transform: rotate(57deg);}
+.char20 { transform: rotate(60deg);}
+.char21 { transform: rotate(63deg);}
+.char22 { transform: rotate(66deg);}
+.char23 { transform: rotate(69deg);}
+.char24 { transform: rotate(72deg);}
+.char25 { transform: rotate(75deg);}
+.char26 { transform: rotate(78deg);}
+.char27 { transform: rotate(80deg);}
+.char28 { transform: rotate(83deg);}
+.char29 { transform: rotate(86deg);}
+.char30 { transform: rotate(89deg);}
+.char31 { transform: rotate(92deg);}
+.char32 { transform: rotate(95deg);}
+.char33 { transform: rotate(98deg);}
+.char34 { transform: rotate(100deg);}
+.char35 { transform: rotate(103deg);}
+.char36 { transform: rotate(106deg);}
+.char37 { transform: rotate(109deg);}
+.char38 { transform: rotate(112deg);}
+.char39 { transform: rotate(115deg);}

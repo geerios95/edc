@@ -1,0 +1,188 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,600);
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+header {
+  position: relative;
+}
+header h1 {
+  text-align: center;
+  font-weight: 700;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header nav ul {
+  float: right;
+  margin-right: 430px;
+}
+header ul li {
+  display: inline-block;
+}
+header li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+header::before, header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header img {
+  width: 100%;
+}
+
+div.dopetrope {
+  width: 600px;
+  height: 150px;
+  background-color: rgba(35, 31, 32, 0.98);
+  position: absolute;
+  top: 250px;
+  left: 370px;
+}
+div.dopetrope h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+div.dopetrope p {
+  color: #d7234a;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#hero::before, #hero::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#hero i {
+  width: 100px;
+  height: 100px;
+  font-size: 600%;
+  text-align: center;
+  margin-left: 160px;
+  border-radius: 100%;
+}
+#hero .fa-cog {
+  background-color: #d7234a;
+  color: white;
+}
+#hero .fa-bolt {
+  background-color: black;
+  color: white;
+}
+#hero .fa-star-o {
+  background-color: gray;
+  color: white;
+}
+#hero div {
+  float: left;
+  width: 33%;
+  border-right: 1px solid gray;
+  padding: 40px 0;
+}
+#hero div:nth-of-type(3) {
+  border: none;
+}
+#hero div h2 {
+  text-align: center;
+}
+#hero div p {
+  padding: 0 20px;
+  text-align: center;
+}
+#hero a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 60px;
+  background-color: black;
+  margin-left: 15px;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#hero a:nth-of-type(1) {
+  background-color: #d7234a;
+  margin-left: 400px;
+}
+#hero span {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#my-portfolio h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 200%;
+}
+#my-portfolio::before, #my-portfolio::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#my-portfolio div {
+  float: left;
+  width: 28%;
+  height: auto;
+  padding: 40px 30px;
+}
+#my-portfolio div:first-of-type {
+  margin-left: 20px;
+}
+#my-portfolio div p {
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+#my-portfolio .btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#my-portfolio div:nth-of-type(4), #my-portfolio div:nth-of-type(5), #my-portfolio div:nth-of-type(6) {
+  margin-left: 10px;
+}
+
+#blog h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 200%;
+}
+#blog::before, #blog::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#blog div {
+  width: 45%;
+  float: left;
+  margin-left: 50px;
+}
+#blog p:nth-child(even) {
+  padding-bottom: 40px;
+  margin: 0;
+}
+#blog a:nth-child(odd) {
+  text-decoration: none;
+  color: white;
+  background-color: #d7234a;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+#blog a:nth-child(even) {
+  text-decoration: none;
+  color: white;
+  background-color: #262223;
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}

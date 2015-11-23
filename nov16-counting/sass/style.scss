@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'reset';
+@import 'fontawesome';
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 25%;
+	background-color: hsla(0, 0%, 90%, .8);
+	border-radius: 5px;
+	width: 50%;
+	height: 400px;
+	div {
+		background-color: hsla(0, 0%, 100%, 1);
+		width: 30vw;
+		height: 250px;
+		border-radius: 5px;
+	}
+	form {
+		padding: 10px;
+		label {
+			margin-top: 5px;
+		}
+		input {
+			margin-top: 5px;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'reset';
+@import 'fontawesome';
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-size: 100%;
+	font-weight: 200;
+}
+main {
+	height: 100%;
+	padding: 10vw 5vw;
+	div {
+		display: flex;
+		p:last-child {
+			color: red;
+		}
+	}
+}
+textarea {
+	font-size: 1.5em;
+}

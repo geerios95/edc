@@ -1,0 +1,40 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	margin: 0;
+}
+button {
+	display: block;
+	margin: 10px;
+	padding: 10px 30px;
+	cursor: pointer;
+	outline: none;
+	color: blue;
+	background-color: purple;
+	border: 1px solid green;
+	&:hover {
+	color: pink;
+	background-color: orange;
+	}
+}
+div#bg-img {
+	position: absolute;
+	top: 0;right: 0;bottom: 0;left: 0;
+	z-index: -1;
+	background: {
+	size: cover;
+	position: center;
+	}
+}
+
+$bgs: stark lannister arryn baratheon martell targaryen tully tyrell;
+@each $bg in $bgs {
+	$i: index($bgs, $bg);
+	div.img-#{$i}{
+	background-image: url('../img/house-#{$bg}.jpg');
+	}
+}

@@ -1,0 +1,33 @@
+#rec {
+	width: 200px;
+	height: 75px;
+	background-color: darkblue;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+#square {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 95px;
+	left: 9px;
+}
+#square2 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 95px;
+	left: 108px;
+}
+#rec2 {
+	width: 200px;
+	height: 75px;
+	background-color: darkblue;
+	position: absolute;
+	top: 195px;
+	left: 8px;
+}

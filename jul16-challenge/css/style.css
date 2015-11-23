@@ -1,0 +1,118 @@
+.clearfix::before,
+.clearfix::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+}
+header {
+	background-color: hsla(200, 40%, 40%, 1);
+	padding: 20px 20px 20px 20px;
+	font-size: 200%;
+	margin: 0 auto;
+}
+main {
+	width: 75%;
+	float: left;
+}
+aside {
+	width: 25%;
+	float: right;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 10px;
+}
+nav {
+	float: right;
+}
+nav li {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	margin-left: 20px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+#hero2 img {
+	padding: 10px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+#rick img {
+	float: left;
+	margin-right: 10px;
+}
+#shane img {
+	float: right;
+	margin-left: 10px;
+}
+article {
+	padding-top:0;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px; 
+}
+aside li {
+	border-bottom: 1px solid lightgray;
+	list-style-position: inside;
+	line-height: 1.5;
+}
+#bug {
+	float: right;
+}
+#copyright {
+	float: left;
+}
+footer {
+	background-color: hsla(0, 0%, 8%, 1);
+	color: white;
+	padding-top: 0;
+	padding-right: 20px;
+	font-size: 80%;
+}
+#hero2 {
+	content: "";
+	clear: both;
+}
+.hero {
+	padding-top: 100px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+}
+#hero h1 {
+	font-size: 350%;
+	margin: 0 auto;
+}
+#hero h2 {
+	margin: 0 auto;
+}
+.hero a {
+	padding: 10px 20px;
+
+	border: 2px solid white;
+	text-decoration: none;
+	background-color: hsla(200, 41%, 65%, .25);
+	color: white;
+}
+div {
+	background-image: url("http://placehold.it/1000x300");
+	background-repeat: none;
+}
+#rick h1 {
+	font-size: 200%;
+}
+#shane h1 {
+	font-size: 200%;
+}
+h1 {
+	margin: 0;
+}

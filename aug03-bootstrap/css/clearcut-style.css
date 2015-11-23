@@ -1,0 +1,131 @@
+div {
+  box-sizing: border-box;
+}
+
+a {
+  color: #db3358;
+  text-decoration: underline;
+}
+
+.btn-clearcut {
+  color: white;
+  text-decoration: none;
+  background-color: #db3358;
+  border-color: #ba2142;
+}
+.btn-clearcut:hover {
+  color: white;
+  background-color: #e35f7b;
+}
+
+.banner {
+  background-image: url(../img/banner.jpg);
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-header {
+  background-color: #ededed;
+  margin: -20px;
+  text-align: center;
+  width: 102%;
+  padding: 40px 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  padding: 20px 0;
+}
+
+.navbar-default {
+  background-color: white;
+  border-color: #e7e7e7;
+}
+
+.col-md-3 {
+  font-size: 100%;
+}
+.col-md-3 h2 {
+  font-size: 150%;
+}
+
+.col-md-12 {
+  background-color: #ededed;
+  font-size: 100%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#welcome ul, #lists ul {
+  margin: 0;
+  padding: 0;
+}
+#welcome li, #lists li {
+  border-bottom: 1px solid #e6e6e6;
+  list-style: none;
+  padding: 12px 0;
+}
+#welcome li::before, #lists li::before {
+  content: "\e013";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 24px;
+  background-color: #db3358;
+  color: white;
+  font-size: 18px;
+  font-family: 'Glyphicons Halflings';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+#welcome li h2, #lists li h2 {
+  font-size: 125%;
+}
+#welcome #welcome h3, #lists #welcome h3 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 125%;
+}
+#welcome #welcome a, #lists #welcome a {
+  vertical-align: baseline;
+}
+
+#promo .content {
+  text-align: center;
+}
+#promo i {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #db3358;
+  font-size: 30px;
+  color: white;
+}
+
+#lists {
+  background-color: #db3358;
+}
+#lists h2, #lists a {
+  color: white;
+}
+#lists li::before {
+  background-color: white;
+  color: #db3358;
+}

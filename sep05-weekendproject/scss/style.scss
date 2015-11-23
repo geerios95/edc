@@ -1,0 +1,28 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+header{
+	background-image: url(../img/i);
+}
+nav ul li{
+	display: inline;
+	padding: 10px 20px;
+	background-color: hsla(2, 73%, 68%, 1);
+	
+}
+li a{
+	list-style: none;
+	text-decoration: none;
+	color: hsla(0, 0%, 100%, 1);
+	text-align: center;
+}
+h1 a {
+	background-color: hsla(2, 73%, 68%, 1);
+	color: hsla(0, 0%, 100%, 1);
+	padding: 20px 30px;
+	text-align: center;
+}

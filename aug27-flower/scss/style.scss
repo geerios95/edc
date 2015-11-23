@@ -1,0 +1,115 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import "vars";
+
+$main-gray: #656565;
+$main-pink: #af1641;
+$white: hsla(0, 0%, 100%, 1);
+$orange: #dc572e;
+body {
+	background-color: $main-pink;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+hgroup{text-transform: uppercase; color: $white; text-align: center; padding-top: 40px;}
+header {
+	.btn-default{
+		margin-right: 700px;
+	}
+	padding-top: 20px;
+	text-align: center;
+	a{text-decoration: none; color: $white;}
+	padding-bottom: 30px; padding-top: 30px; 
+}
+nav {
+	a{font-size: 1em;}
+	li{
+		background-color: $orange;
+		border-radius: 5px;
+		padding: 10px;
+	}
+}
+ul li {
+	list-style: none;
+	a{text-decoration: none; color: $white;}
+}
+li { 
+	padding-top: 20px;
+	margin-left: 60px;
+	display: inline;
+	padding: 0 60px;
+}
+.btn-default {
+	background-color: $orange;
+	padding: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: $white;
+	margin-left: 700px;
+	border: none;
+	text-transform: uppercase;
+}
+main {
+	text-align: center;
+	background-color: $white;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 100%;
+	h2{color: #2B3F48;}
+	h4{color: $main-gray;}
+	p{color: $main-gray;}
+	.btn-default {
+		background-color: $main-pink;
+		padding: 20px;
+		margin-right: 695px;
+		border-radius: 10px;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+section {
+	color: $white;
+	text-align: center;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	img{
+		padding-top: 80px;
+		border-radius: 10px;
+	}
+	h4{
+		color: lighten($white, 30);
+	}
+	.btn-default{
+		margin-right: 680px;
+		color: $main-pink;
+		background-color: $white;
+		padding: 20px 60px;
+		border-radius: 7px;
+	}
+}
+#bg-white{
+	background-color: $white;
+	color: $main-gray;
+	display: flex;
+flex-direction: row-wrap;
+		
+	h4{color: $main-gray;}
+	div {
+		justify-content: center;
+		width: 200px;
+		padding: 48px 32px 32px 32px;
+    	border: 1px solid $main-gray;
+    	border-radius: 8px;
+    	text-align: center;
+	}
+	.btn-default{
+		background-color: $main-pink;
+		color: $white;
+		margin-top: 40px;
+	}
+}footer{
+	background-color: $main-gray;
+	padding: 60px;
+	text-align: center;
+}

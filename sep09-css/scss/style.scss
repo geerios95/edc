@@ -1,0 +1,38 @@
+/* put your scss here */
+body {
+	margin: 0;
+}
+a{
+	background-color: hsla(0, 30%, 60%, 1);
+	display: inline-block;
+	padding: 10px;
+	//margin: 100px;
+	border-radius: 10px;
+	height: 100px;
+	width: 25%;
+	//no width or height for inline emlements
+}
+p{
+	//width: 50%;
+	margin: 0;
+}
+header{
+	background-color: hsla(180, 30%, 60%, 1);
+	height: 100px;
+}
+article{
+	background-color: hsla(200, 30%, 60%, 1);
+	width: 75%;
+	height: 250px;
+	float: left;
+}
+aside{
+	background-color: hsla(220, 30%, 60%, 1);
+	height: 250px;
+	width: 25%;
+	float: left;
+}
+footer{
+	background-color: hsla(300, 30%, 60%, 1);
+	height: 100px;
+}

@@ -1,0 +1,108 @@
+@import 'reset';
+
+%clearfix {
+	&::before, &::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+%content {
+	padding: 50px 5vw;
+}
+.icon {
+	$ico: 3vw;
+	$icohalf: ($ico/2);
+	$icothird: ($ico/3);
+	background-color: hsla(0, 0%, 0%, .15);
+	display: inline-block;
+	width: $ico;
+	height: ($ico/2);
+	text-align: center;
+	line-height: $icohalf;
+	margin-bottom: $ico;
+	position: relative;
+	&::before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 100%;
+	border: {
+		color: transparent transparent hsla(0, 0%, 0%, .15) transparent;
+		width: $icohalf $icohalf $icothird $icohalf ;
+		style: solid;
+	}
+	}
+	&::after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 100%;
+	border: {
+		color: hsla(0, 0%, 0%, .15) transparent transparent transparent;
+		width: $icothird $icohalf $icohalf $icohalf ;
+		style: solid;
+	}
+	}
+}
+header {
+	@extend %content;
+	overflow: hidden;
+	background-image: linear-gradient(hsla(0, 0%, 0%, .3),hsla(0, 0%, 0%, .3)), url(../img/slide01.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	a {
+		border: none;
+	}
+}
+h1 {
+	float: left;
+}
+nav {
+	@extend %clearfix;
+}
+nav ul {
+	float: right;
+}
+nav li {
+	display: inline-block;
+}
+h2 {
+	text-align: center;
+	margin: 15vw 0;
+	font-size: 3vw;
+	text-transform: uppercase;
+}
+#about {
+	@extend %content;
+	@extend %clearfix;
+	div {
+		float: left;
+		width: 33%;
+		margin-right: 7%;
+	}
+	img {
+		float: right;
+		width: 60%;
+		height: auto;
+	}
+}
+#promos {
+	@extend %clearfix;
+	div {
+		@extend %content;
+		width: 33.3333%;
+		float: left;
+		box-sizing: border-box;
+	}
+}
+#blog {
+	@extend %content;
+	.grid div {
+		float: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+}

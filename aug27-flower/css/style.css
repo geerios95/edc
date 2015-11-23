@@ -1,0 +1,151 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+body {
+  background-color: #af1641;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+hgroup {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+header {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+header .btn-default {
+  margin-right: 700px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a {
+  font-size: 1em;
+}
+nav li {
+  background-color: #dc572e;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding-top: 20px;
+  margin-left: 60px;
+  display: inline;
+  padding: 0 60px;
+}
+
+.btn-default {
+  background-color: #dc572e;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  margin-left: 700px;
+  border: none;
+  text-transform: uppercase;
+}
+
+main {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+main h2 {
+  color: #2B3F48;
+}
+main h4 {
+  color: #656565;
+}
+main p {
+  color: #656565;
+}
+main .btn-default {
+  background-color: #af1641;
+  padding: 20px;
+  margin-right: 695px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  color: white;
+  text-align: center;
+  padding-bottom: 80px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section img {
+  padding-top: 80px;
+  border-radius: 10px;
+}
+section h4 {
+  color: white;
+}
+section .btn-default {
+  margin-right: 680px;
+  color: #af1641;
+  background-color: white;
+  padding: 20px 60px;
+  border-radius: 7px;
+}
+
+#bg-white {
+  background-color: white;
+  color: #656565;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-wrap;
+      -ms-flex-direction: row-wrap;
+          flex-direction: row-wrap;
+}
+#bg-white h4 {
+  color: #656565;
+}
+#bg-white div {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  padding: 48px 32px 32px 32px;
+  border: 1px solid #656565;
+  border-radius: 8px;
+  text-align: center;
+}
+#bg-white .btn-default {
+  background-color: #af1641;
+  color: white;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #656565;
+  padding: 60px;
+  text-align: center;
+}

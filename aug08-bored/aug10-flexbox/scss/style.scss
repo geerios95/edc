@@ -1,0 +1,53 @@
+/* put your scss here */
+ul {
+	background-color: hsla(280, 50%, 50%, .5);
+	//height: 250px;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	//align-items: stretch;
+}
+main {
+	background-color: hsla(300, 50%, 50%, 1);
+	padding: 20px;
+	display: flex;
+}
+article {
+	display: flex;
+	align-items: flex-start;
+	flex: 4;
+	background-color: hsla(800, 50%, 50%, 1);
+	* {
+		order: 0;
+		background-color: hsla(0, 50%, 50%, .25);
+	}
+	h1 {
+		order: 2;
+	}
+	blockquote {
+		order: 1;
+	}
+}
+aside {
+	flex: 1;
+	background-color: hsla(150, 50%, 50%, 1);
+}
+li {
+	display: flex;
+	align-items: center;
+	//width: 100px;
+	//height: 100px;
+	margin: 10px 20px;
+	background-color: hsla(200, 50%, 50%, .25);
+	&:first-child {
+		margin-right: auto;
+	}
+}
+@media screen and (max-width: 768px){
+	ul {//flex-direction: column;
+		
+	}
+}

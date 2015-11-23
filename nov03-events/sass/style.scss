@@ -1,0 +1,83 @@
+@import 'variables';
+@import 'reset';
+@import 'fontawesome';
+
+body {
+	//background-color: hsla(0, 0%, 96%, 1);
+}
+
+main {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background-color: lightgreen;
+	margin: 50px auto;
+	span {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: mediumpurple;
+		z-index: 1;
+	}
+	div {
+		position: absolute;
+		width: 50%;
+		height: 10px;
+		background-color: black;
+		top: 50%;
+		z-index: 10;
+	}
+	div:nth-of-type(2) {
+		position: absolute;
+		width: 100px;
+		height: 10px;
+		background-color: black;
+		top: 67%;
+		z-index: 10;
+		left: 95px;
+		transform: rotate(-90deg);
+	}
+	div:nth-of-type(3) {
+		position: absolute;
+		width: 100px;
+		height: 10px;
+		background-color: black;
+		top: 246px;
+		z-index: 10;
+		right: 57px;
+	}
+	div:nth-of-type(4) {
+		position: absolute;
+		width: 100px;
+		height: 10px;
+		background-color: black;
+		top: 202px;
+		z-index: 10;
+		right: 12px;
+		transform: rotate(90deg);
+	}
+	div:nth-of-type(5) {
+		position: absolute;
+		width: 67px;
+		height: 10px;
+		background-color: black;
+		top: 155px;
+		z-index: 10;
+		right: 0;
+		//transform: rotate(90deg);
+	}
+}
+
+p, input {
+	background-color: white;
+	border: 1px solid gray;
+	padding: 10px;
+	margin: 5vw;
+}
+
+h1 {
+	text-align: center;
+	margin: 5vw;
+}

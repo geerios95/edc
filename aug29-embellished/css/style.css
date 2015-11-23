@@ -1,0 +1,150 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+header {
+  padding: 50px;
+  text-align: center;
+}
+header .fa {
+  font-size: 22px;
+}
+header i {
+  background-color: #6C2A6A;
+}
+header h1 a {
+  font-weight: 600;
+  font-size: 200%;
+  text-decoration: none;
+  color: #6C2A6A;
+}
+header h1 a:hover {
+  text-decoration: none;
+  color: #6C2A6A;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  display: inline-block;
+  padding: 20px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+i {
+  /*background-color: $main-purple;
+  border-radius: 50%;
+  color: $white;
+  font-size: 2em;*/
+  display: inline-block;
+  padding: 1em;
+  border-radius: 50%;
+  font-size: 22px;
+  color: #FFF;
+}
+
+#welcome {
+  text-align: center;
+  background-color: #6C2A6A;
+  color: #fff;
+  padding: 100px;
+}
+#welcome p {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 40px;
+  font-size: 125%;
+}
+#welcome h2 {
+  font-size: 300%;
+  font-weight: 600;
+}
+#welcome a {
+  color: #fff;
+}
+
+main {
+  text-align: center;
+  padding: 100px 20px;
+}
+main h2 {
+  font-size: 300%;
+  font-weight: 400;
+}
+main h3 {
+  color: black;
+  font-weight: 600;
+}
+main span:first-of-type {
+  color: rgba(128, 128, 128, 0.8);
+  font-size: 200%;
+}
+main p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+main i {
+  color: rgba(0, 0, 0, 0.8);
+}
+main .fa {
+  font-size: 26px;
+}
+
+.btn-default {
+  background-color: #6C2A6A;
+  color: #fff;
+  padding: 20px 30px 20px 30px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-default:hover {
+  background-color: #6C2A6A;
+  color: #fff;
+}
+
+#bg-overlay {
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-image: url(../img/board-black-series-texture-background-wood-wallpaper-wood-texture-wallpapers-476.jpg);
+}
+#bg-overlay h2 {
+  padding-top: 30px;
+  font-size: 400%;
+}
+#bg-overlay span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 150%;
+}
+#bg-overlay ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#bg-overlay li {
+  list-style: none;
+  padding: 30px 10px;
+}
+#bg-overlay i {
+  background: #6C2A6A;
+  font-size: 22px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}

@@ -1,0 +1,63 @@
+/* put your scss here */
+body {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+div {
+  background-color: white;
+  width: 50vw;
+  height: 50vw;
+  margin: 50px auto;
+  position: relative;
+}
+div img {
+  width: 25%;
+  height: auto;
+  position: absolute;
+}
+
+div::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#cat1 {
+  top: 0;
+  right: 0;
+}
+
+.cat2 {
+  bottom: 0;
+  right: 0;
+}
+
+.cat3 {
+  left: 0;
+  bottom: 0;
+}
+
+.cat4 {
+  top: 0;
+  left: 0;
+}
+
+.cat5 {
+  left: 40%;
+  top: 37%;
+}
+
+#one img {
+  top: 135px;
+}
+
+.cat7 {
+  right: 0;
+  top: 150px;
+}
+
+.cat6 {
+  left: 0;
+  top: 150px;
+}

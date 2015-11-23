@@ -1,0 +1,146 @@
+/* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  float: left;
+}
+
+a {
+  color: #353f4b;
+  text-decoration: none;
+}
+
+nav {
+  background-color: white;
+  color: #000000;
+  padding: 0 20px;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ul {
+  float: right;
+}
+
+li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+li.dropdown {
+  position: relative;
+}
+
+li.dropdown:hover ul {
+  display: block;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 20px;
+  border-top: 10px solid #ffffff;
+}
+
+ul ul li {
+  background-color: white;
+  display: block;
+  width: 150px;
+  height: 30px;
+}
+
+section {
+  background-color: #3498b7;
+  color: white;
+  padding: 60px 80px;
+  position: relative;
+}
+section h2, section p {
+  text-align: center;
+}
+section p {
+  margin-left: 25px;
+}
+section .icon-txt {
+  width: 75%;
+}
+section h3 {
+  text-align: center;
+}
+
+.wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+div {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  width: 90%;
+  margin-left: 45px;
+}
+
+.fa-laptop, .fa-cog, .fa-bar-chart {
+  background-color: #3498b7;
+  font-size: 50px;
+  text-align: center;
+  margin-left: 110px;
+}
+
+.btn-default {
+  margin-left: 550px;
+  margin-top: 30px;
+  color: black;
+  padding: 20px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+.btn-default a:hover {
+  background-color: #3498b7;
+  color: white;
+}
+
+.tab {
+  width: 200px;
+  height: 40px;
+  vertical-align: middle;
+  background-color: #3498b7;
+  bottom: -35px;
+  left: 600px;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+main {
+  background-color: #353f4b;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+main article {
+  width: 50%;
+  text-align: left;
+}

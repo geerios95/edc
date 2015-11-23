@@ -1,0 +1,139 @@
+/* put your scss here */
+@import "variables";
+/*:before, :after {
+	content: "";
+	display: block;
+	clear: both;
+}*/
+.pics li::before, .pics li::after {
+	content: "";
+	display: block;
+	clear: both; 
+}
+ul li::before, ul li::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+div {
+	box-sizing: border-box;
+}
+div[class^="col-"] {
+	float: left;
+	padding: 10px;
+
+}
+header {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	height: 400px;
+	content: "";
+	display: block;
+	clear: both;
+	h1, h3 {
+		text-align: center;
+		padding-top: 20px;
+		margin: 0;
+		color: white;
+	}
+	h3 {
+		color: $lightcolor;
+		padding-bottom: 20px;
+	}
+}
+nav {
+	text-align: center;
+}
+
+nav .first {
+	text-decoration: none;
+		color: $lightcolor;
+		font-size: 20px;
+		border: 2px solid $txtcolor;
+		border-radius: 50px;
+}
+h1 .line {
+	display: block;
+	margin: 0.5em 0 0 0;
+	padding: 0 0 0.5em 0;
+}
+div.col-3 {
+	width: 60%;
+}
+div.col-6 {
+	width: 40%;
+	float: right;
+	img {
+		float: left;
+	}
+}
+.col-6 h2 {
+	font-size: 80%;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font: inherit;
+}
+.col-6 p {
+	font: inherit;
+}
+div {
+	background-color: $lightest;
+	width: 100%;
+}
+.wrapper::before, .wrapper::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+div.img1 {
+	content: "";
+	display: block;
+	clear: both;
+	width: 33.333%;
+	float: left;
+	padding: 10px;
+}
+div.img2 {
+	float: left;
+	width: 33.333%;
+	padding: 10px;
+	background-color: none;
+}
+div.img3 {
+	float: right;
+	width: 33.333%;
+	padding: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+.pics li {
+	list-style: none;
+	display: block;
+	clear: both;
+}
+button {
+	background-color: #e95d3c;
+	color: white;
+	padding: 20px;
+	border-radius: 50px;
+}
+.dd {
+	display: block;
+	clear: both;
+}
+
+.posts {
+	width: 33.333%;
+	float: left;
+}
+.img1, .img2, .img3 {
+	img {
+		width: 100%;
+	}
+}
+footer {
+	text-align: center;
+} 

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #ff6666;
+}
+
+nav {
+  padding: 0 20px;
+}
+
+nav::before, nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+li {
+  display: inline;
+  margin: 0 5px;
+  margin-top: -100px;
+}
+
+ul {
+  margin: 50px 200px;
+}

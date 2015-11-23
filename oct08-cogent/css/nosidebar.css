@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,600,700,200,200italic);
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+
+#no-sidebar h2 {
+  font-weight: 400;
+  text-align: center;
+}
+#no-sidebar p:nth-of-type(1) {
+  text-align: center;
+}
+#no-sidebar p {
+  font-weight: 100;
+  line-height: 2;
+  color: #4c515d;
+}
+#no-sidebar img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+#no-sidebar div p {
+  font-weight: 300;
+  padding: 10px 100px;
+}
+
+footer {
+  color: #cfd0d3;
+  background-color: #3c414e;
+}
+footer::before, footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+footer div {
+  float: left;
+  width: 25%;
+  padding: 20px 50px;
+}
+footer div h3 {
+  color: white;
+}
+footer div p {
+  margin-bottom: 0;
+}
+footer div .btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #595c69;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+footer .news p {
+  color: #6c707a;
+}
+footer .news a {
+  color: #cfd0d3;
+  text-decoration: none;
+}
+footer .news a:hover {
+  text-decoration: underline;
+}
+footer .contact a {
+  text-decoration: none;
+  color: #cfd0d3;
+}
+footer .contact a:hover {
+  text-decoration: underline;
+}
+footer .footer {
+  font-size: 90%;
+  float: left;
+  margin-left: 400px;
+  color: #6c707a;
+}
+footer .footer a {
+  color: #6c707a;
+}
+footer .footer a:hover {
+  color: #cfd0d3;
+}

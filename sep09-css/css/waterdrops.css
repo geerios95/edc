@@ -1,0 +1,46 @@
+body {
+  text-transform: lowercase;
+}
+
+header {
+  background-image: url(../img/img01.jpg);
+  padding: 100px;
+}
+header h1 a {
+  font-size: 2em;
+  margin-top: -10px;
+}
+header ul li {
+  display: inline;
+  float: right;
+}
+header li {
+  list-style: none;
+  padding: 40px;
+  margin-top: -100px;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  clear: both;
+}
+
+main {
+  color: #7D7764;
+}
+main a {
+  color: #341A39;
+  text-decoration: none;
+}
+
+.banner img {
+  display: block;
+  position: absolute;
+  top: 250px;
+  left: 210px;
+  border: 15px solid #fff;
+}
+
+main section {
+  padding-top: 250px;
+}

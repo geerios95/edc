@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,600,700,200,200italic);
+
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+#no-sidebar {
+	h2 {
+		font-weight: 400;
+		text-align: center;
+	}
+	p:nth-of-type(1) {
+		text-align: center;
+	}
+	p {
+		font-weight: 100;
+		line-height: 2;
+		// color: hsl(0, 0%, 70%);
+		color: hsl(222, 10%, 33%)
+	}
+	
+	img {
+		border-radius: 10px;
+		display: block;
+		margin: 0 auto;
+	}
+	div p {
+		font-weight: 300;
+		padding: 10px 100px;
+	}
+}
+footer {
+	    color: hsla(228, 5%, 82%, 1);
+	&::before, &::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	background-color: hsla(223, 13%, 27%, 1);
+	div {
+		float: left;
+		width: 25%;
+		padding: 20px 50px;
+	}
+	div h3 {
+		color: hsla(0, 0%, 100%, 1);
+	}
+	div p {
+		margin-bottom: 0;
+	}
+	div .btn {
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+		background-color: hsl(228, 8%, 38%);
+		color: hsla(0, 100%, 100%, 1);
+		padding: 10px 25px;
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-left: 55px;
+
+		
+	}
+	.news p {
+		color: hsla(223, 6%, 45%, 1);
+	}
+	.news a {
+		color: hsl(228, 5%, 82%);
+		text-decoration: none;
+		&:hover {
+		text-decoration: underline;
+	}
+	}
+	.contact a {
+		text-decoration: none;
+		color: hsla(228, 5%, 82%, 1);
+		&:hover {
+			text-decoration: underline;
+		}
+
+	}
+	.footer {
+		font-size: 90%;
+		float: left;
+		margin-left: 400px;
+		color: hsla(223, 6%, 45%, 1);
+		a {
+			color: hsla(223, 6%, 45%, 1);
+			&:hover {
+				color: hsl(228, 5%, 82%);
+			}
+		}
+
+	}
+}

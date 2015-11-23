@@ -1,0 +1,100 @@
+body {
+  background-color: #552713;
+}
+
+div {
+  background-color: #fff;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+}
+header h2 {
+  color: #FD5113;
+}
+header h4 {
+  font-size: 100%;
+}
+
+nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2B1B17;
+  width: 75%;
+  margin-left: 140px;
+}
+nav ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: start-end;
+      -ms-flex-pack: start-end;
+          justify-content: start-end;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+nav ul li, nav ul li a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav ul li a {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #FD5113;
+  padding: 10px;
+}
+
+p {
+  padding-top: 20px;
+  color: #525252;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #261106;
+  border-color: #ccc;
+}
+
+.list li {
+  list-style: none;
+}
+
+ul.list a {
+  color: #525252;
+}
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: start-end;
+      -ms-flex-align: start-end;
+          align-items: start-end;
+}
+
+.date {
+  width: 80px;
+  height: 80px;
+  background-color: #FD5113;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}

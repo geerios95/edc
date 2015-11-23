@@ -1,0 +1,143 @@
+/* put your scss here */
+/* put your scss here */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
+
+$main-orange: hsla(11, 80%, 57%, 1);
+$main-white: hsla(0, 0%, 95%, 1);
+$main-gray: hsla(0, 0%, 13%, 1);
+
+body {
+    font-family: 'Roboto COndensed', sans-serif; 
+}
+
+h1, h2, h3, h4, {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+h1 {
+    font-size: 300%;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 180%;
+    margin-bottom: 40px;
+}
+h3 {
+    font-size: 150%;
+    margin-top: 0;
+}
+h4 {
+     font-size: 125%;
+}
+.content {
+	padding: {
+		top: 100px;
+		bottom: 25px;
+	} 
+}
+a {
+	text-decoration: underline;
+	color: $main-orange;
+}
+.btn {
+	border: none;
+	text-decoration: none;
+}
+.btn-lg {
+	padding: {
+		left: 25px;
+		right: 25px;
+	}
+}
+.btn-exmachina {
+	text-transform: uppercase;
+	margin-top: 30px;
+	color: $main-white;
+    background-color: $main-orange;
+    transition: all 250ms ease-in-out;
+    &:hover {
+    	color: $main-white;
+    	background-color: darken($main-orange, 10);
+    }
+}
+.hero {
+    height: 350px;
+    background: {
+        image: url("../img/banner.jpg");
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
+}
+#row img {
+	width: 100%;
+}
+ul li {
+	list-style: none;
+	padding: 0;
+}
+li {
+	border-bottom: 1px solid lightgray;
+	padding: 15px 0;
+	&::before, &::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+	img {
+		float: left;
+		margin-right: 15px;
+	}
+}
+li:last-child {
+	border: none;
+}
+p {
+	line-height: 2;
+	font-weight: 300;
+}
+main {
+	background-color: $main-gray;
+	padding: 100px 0 25px;
+
+}
+@media screen and (max-width: 768px){
+	a.btn {
+		display: block;
+	}
+}
+#row3 {
+	.content {
+		padding: 25px;
+		background-color: $main-white;
+	}
+}
+blockquote {
+	background-color: $main-white;
+    border-left: none;
+}
+#row4 {
+	h2 {
+	color: $main-white;
+	}
+	h4 {
+		color: hsla(0, 0%, 100%, .4);
+	}
+	a {
+		color: hsla(0, 0%, 100%, .3);
+		text-decoration: none;
+	}
+	a:hover, &::after {
+		text-decoration: underline;
+	}  
+	p {
+		color: hsla(0, 0%, 100%, .3);
+	}
+}
+footer {
+	background-color: $main-gray;
+	text-align: center;
+	font-size: 100%;
+	color: gray;
+} 
+
