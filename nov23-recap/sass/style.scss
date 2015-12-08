@@ -1,0 +1,99 @@
+@import 'variables';
+@import 'reset';
+@import 'fontawesome';
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 0;
+	float: left;
+}
+a {
+	color: hsla(211, 17%, 25%, 1);
+	text-decoration: none;
+}
+nav{
+	background-color: white;
+	color: #000000;
+	padding: 0 20px;
+	border-bottom: 1px solid hsla(0, 0%, 90%, 1);
+}
+nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+ul {
+	float: right;
+
+}
+li{
+	display: inline-block;
+	margin: 0 5px;
+}
+li.dropdown{
+	position: relative;
+}
+li.dropdown:hover ul {
+	display: block;
+}
+ul ul{
+	position: absolute;
+	display: none;
+	top: 100%;
+	right: 0;
+	border-top: 10px solid #ffffff;
+}
+ul ul li{
+	background-color: white;
+	display: block;
+	border: 1px solid black;
+	width: 150px;
+}
+section#first {
+	background-image: url(../img/premade_bg_43___stock_by_inadesign_stock-d4d5j5i.png);
+	background-size: cover;
+	background-position: center;
+	color: hsla(0, 0%, 96%, 1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	img {
+		border-radius: 50%;
+		width: 30%;
+		border: 1px solid black;
+	}
+
+}
+section#second {
+	padding: 25px 0;
+	h2 {
+		text-align: center;
+	}
+	.flex {
+		display: flex;
+		div {
+			width: 33.333%;
+		}
+	}
+}
+section#third {
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	p {
+		padding: 15px 0;
+		margin-left: 70px;
+		text-align: center;
+		line-height: 1.5;
+		width: 80%;
+	}
+}
+
+footer {
+	text-align: center;
+}

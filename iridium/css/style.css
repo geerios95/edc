@@ -1,153 +1,87 @@
 /* put your scss here */
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic);
 /*:before, :after {
 	content: "";
 	display: block;
 	clear: both;
 }*/
-.pics li::before, .pics li::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-ul li::before, ul li::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-div {
-  box-sizing: border-box;
-}
-
-div[class^="col-"] {
-  float: left;
-  padding: 10px;
+body {
+  font-family: 'Arimo', sans-serif;
+  margin: 0;
 }
 
 header {
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url(../img/banner.jpg);
   background-size: cover;
-  height: 400px;
-  content: "";
-  display: block;
-  clear: both;
+  height: 45vw;
 }
-header h1, header h3 {
-  text-align: center;
-  padding-top: 20px;
-  margin: 0;
-  color: white;
+header h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 header h3 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.5);
   padding-bottom: 20px;
+  margin-top: 0;
+  font-weight: 100;
 }
 
-nav {
-  text-align: center;
+nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-nav .first {
+nav li {
+  padding: 10px;
+  list-style: none;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
   border: 2px solid white;
   border-radius: 50px;
+  padding: 20px 20px;
 }
 
-h1 .line {
-  display: block;
-  margin: 0.5em 0 0 0;
-  padding: 0 0 0.5em 0;
+main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
-
-div.col-3 {
-  width: 60%;
+main section, main div {
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
 }
-
-div.col-6 {
-  width: 40%;
-  float: right;
-}
-div.col-6 img {
-  float: left;
-}
-
-.col-6 h2 {
-  font-size: 80%;
-  text-align: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  font: inherit;
-}
-
-.col-6 p {
-  font: inherit;
-}
-
-div {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 100%;
-}
-
-.wrapper::before, .wrapper::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-div.img1 {
-  content: "";
-  display: block;
-  clear: both;
-  width: 33.333%;
-  float: left;
-  padding: 10px;
-}
-
-div.img2 {
-  float: left;
-  width: 33.333%;
-  padding: 10px;
-  background-color: none;
-}
-
-div.img3 {
-  float: right;
-  width: 33.333%;
-  padding: 10px;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-.pics li {
-  list-style: none;
-  display: block;
-  clear: both;
-}
-
-button {
-  background-color: #e95d3c;
-  color: white;
-  padding: 20px;
-  border-radius: 50px;
-}
-
-.dd {
-  display: block;
-  clear: both;
-}
-
-.posts {
-  width: 33.333%;
-  float: left;
-}
-
-.img1 img, .img2 img, .img3 img {
-  width: 100%;
+main section ol, main div ol {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer {

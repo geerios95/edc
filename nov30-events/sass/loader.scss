@@ -1,0 +1,51 @@
+@import 'reset';
+@import 'fontawesome';
+
+html {
+	height: 100%;
+	background: {
+		image: url('../img/6790904-free-background-wallpaper.jpg');
+		position: center;
+		size: cover;
+	}
+}
+body {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	> img {
+		border-radius: 10px;
+		box-shadow: 0 5px 10px transparentize(black, .25);
+	}
+
+	.overlay {
+		display: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: transparentize(black, .30);
+		z-index: 100;
+		justify-content: center;
+		align-items: center;
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			max-width: 90%;
+			max-height: 90%;
+			transform: translate3d(-50%, -50%, 0);
+		}
+		i {
+			filter: drop-shadow(0 0 3px black);
+			color: white;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate3d(-50%, -50%, 0);
+		}
+	}
+}

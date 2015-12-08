@@ -65,11 +65,25 @@ header {
 		padding-top: 70px; 
 	}
 	.icons {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
+		display: inline-flex;
+		flex-direction: column;
+		//justify-content: space-around;
+		align-items: flex-start;
 		padding: 20px 0; 
+	}
+	div.img {
+		display: inline-flex;
+		justify-content: flex-end;
+		align-content: flex-end;
+		padding-right: 30px;
+		//display: inline-flex;
+		//j//ustify-content: flex-end;
+		//align-items: flex-end;
+		img {
+			display: inline-block;
+			//margin: 0 auto 0 auto;
+
+		}
 	}
 	.fa {
 		font-size: 2em;
